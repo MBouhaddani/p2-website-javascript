@@ -1,0 +1,49 @@
+header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Stijl voor het navigatiemenu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Stijl voor de dropdown items */
+nav li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
