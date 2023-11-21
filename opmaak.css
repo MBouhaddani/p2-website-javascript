@@ -2,10 +2,13 @@ header {
     background-color: #f8f9fa;
     text-align: center;
     padding: 20px;
+    border: 2px solid black;
 }
 
+body {
+    background-color: rgba(184, 184, 184, 0.663);
+}
 
-/* Stijl voor het navigatiemenu */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -23,7 +26,6 @@ nav li a {
     padding: 10px;
 }
 
-/* Stijl voor de dropdown items */
 nav li ul {
     display: none;
     position: absolute;
@@ -38,7 +40,6 @@ main {
     padding: 20px;
 }
 
-
 footer {
     background-color: #f8f9fa;
     text-align: center;
@@ -46,4 +47,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    border: 2px solid black;
 }
+
+
