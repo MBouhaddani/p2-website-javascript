@@ -17,23 +17,7 @@
 
 
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="motivatie.html">Motivatie</a></li>
-            <li><a href="goededoelen.html">Goede doelen</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-            <li>
-                <a href="games.html">Games</a>
-                <ul>
-                    <li><a href="game1.html">Game 1</a></li>
-                    <li><a href="game2.html">Game 2</a></li>
-                    <li><a href="game3.html">Game 3</a></li>
-                </ul>
-            </li>
-            <li><a href="gamebeschrijving.html">Games beschrijving</a></li>
-        </ul>
-    </nav>
+    <?php include 'menu.php';?>
 
 
 
