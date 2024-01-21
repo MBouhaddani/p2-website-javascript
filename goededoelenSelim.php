@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="opmaak.css">
+<link rel="stylesheet" href="styles.css">
 <title>Goededoelen</title>
 <html>
 
@@ -26,11 +26,7 @@
     </main>
 
 
-    <footer>
-        <p>Contactinformatie: info@voorbeeld.nl</p>
-        <p>© 2023 Website</p>
-    </footer>
-
+    <?php include 'footer.php';?>
 </body>
 
 </html>

@@ -1,0 +1,167 @@
+header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+body {
+    background-color: rgba(145, 145, 145, 0.663);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+    border: 2px solid black;
+}   
+
+/*games*/
+
+/* Om alles in het spel te centreren */
+.game{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Titel van het spel */
+.title{
+	position: absolute;
+	top: 0;
+	font-size: 4rem;
+	z-index: 2;
+}
+
+/* Scorebord */
+.score{
+	display: flex;
+	width: 30vw;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 70px;
+	z-index: 1;
+}
+
+/* Score */
+.p-count,.c-count{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
+
+/* weergeven van drie knoppen in één regel */
+.options{
+	display: flex;
+	width: 50vw;
+	justify-content: space-evenly;
+	margin-top: 2rem;
+}
+
+/* Stijl op alle drie de knoppen */
+.rock, .paper, .scissor{
+	padding: 0.8rem;
+	width: 100px;
+	border-radius: 10px;
+	background: rgb(255, 255, 255);
+	outline: none;
+	border-color: rgb(0, 0, 0);
+	border: none;
+	cursor: pointer;
+}
+
+.move{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* Stijl van de herlaadknop */
+.reload {
+	display: none;
+	margin-top: 2rem;
+	padding: 1rem;
+	background: green;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.result{
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+
+/* Responsief ontwerp */
+@media screen and (max-width: 612px)
+{ 
+	.title{
+		text-align: center;
+	}
+	.score{
+		position: absolute;
+		top: 200px;
+		width: 100vw;
+	}
+	.options{
+		width: 100vw;
+	}
+}
+
+
+/* Centreer het menu */
+.centered-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* CSS-stijlen voor de pop-up */
+.popup {
+ position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: white;
+padding: 20px;
+border: 1px solid black;
+z-index: 9999;
+}

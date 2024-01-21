@@ -2,7 +2,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li>
-                <a href="motivatie.php">Motivatie</a>
+                <a href="">Motivatie</a>
                 <ul>
                     <li><a href="motivatieMohamed.php"> Motivatie Mohamed</a></li>
                     <li><a href="motivatieSelim.php"> Motivatie Selim</a></li>
@@ -10,7 +10,7 @@
                 </ul>
             </li>
             <li>
-                <a href="goededoelen.php">Goede doelen</a>
+                <a href="">Goede doelen</a>
                 <ul>
                     <li><a href="goededoelenMohamed.php"> goededoelen Mohamed </a></li>
                     <li><a href="goededoelenSelim.php"> goededoelen Selim </a></li>
@@ -18,7 +18,7 @@
                 </ul>
             </li>
             <li>
-                <a href="portofolio.php">Portofolio</a>
+                <a href="">Portofolio</a>
                 <ul>
                     <li><a href="portofolioMohamed.php">portfolio Mohamed</a></li>
                     <li><a href="portofolioSelim.php">portfolio Selim</a></li>
@@ -26,11 +26,19 @@
                 </ul>
             </li>
             <li>
-                <a href="gamebeschrijving.php">gamebeschrijving</a>
+                <a href="">gamebeschrijving</a>
                 <ul>
                     <li><a href="gamebeschrijvingMohamed.php">gamebeschrijving Mohamed</a></li>
                     <li><a href="gamebeschrijvingSelim.php">gamebeschrijving Selim</a></li>
                     <li><a href="gamebeschrijvingOliwier.php">gamebeschrijving Oliwier</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">games</a>
+                <ul>
+                    <li><a href="gameMohamed.php">game Mohamed</a></li>
+                    <li><a href="gameSelim.php">game Selim</a></li>
+                    <li><a href="gameOliwier.php">game Oliwier</a></li>
                 </ul>
             </li>
     </nav>

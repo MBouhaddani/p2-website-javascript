@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="opmaak.css">
+<link rel="stylesheet" href="styles.css">
 <title>portofolio</title>
 <html>
 
@@ -37,16 +37,12 @@
 
     <button onclick="showPhoto()">Foto</button>
     <button onclick="showContact()">Contact</button>
-    <button onclick="showPitch()">Pitch</button>
     <button onclick="showExperience()">Ervaring</button>
     <button onclick="showEducation()">Opleiding</button>
     <button onclick="showSkills()">Programmeer vaardigheden</button>
     <button onclick="showHobbies()">Hobby's</button>
 
-    <footer>
-        <p>Contactinformatie: info@voorbeeld.nl</p>
-        <p>© 2023 Website</p>
-    </footer>
+
 
     <script>
         function showPhoto() {
@@ -55,10 +51,6 @@
 
         function showContact() {
             document.getElementById("display-area").innerHTML = "<p>Contact Information: your-email@example.com</p>";
-        }
-
-        function showPitch() {
-            document.getElementById("display-area").innerHTML = "<video src='path/to/your/pitch.mp4' controls></video>";
         }
 
         function showExperience() {
@@ -77,7 +69,7 @@
             document.getElementById("display-area").innerHTML = "<h3>Hobbies</h3><p>List of your hobbies</p>";
         }
     </script>
-
+<?php include 'footer.php';?>
 </body>
 
 </html>
