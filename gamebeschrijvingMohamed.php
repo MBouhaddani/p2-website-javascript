@@ -10,13 +10,13 @@
 
 
     <header>
-        <h1>Website Titel</h1>
+        <h1>Game Beschrijving</h1>
     </header>
 
 
     <?php include 'menu.php'; ?>
 
-<h1> Beschrijving</h1>
+<h1> steen papier schaar</h1>
     <main>
         "Steen, Papier, Schaar" is een klassiek spel dat wereldwijd bekend is. Het is een spel van kans en strategie,
         waarbij spelers tegelijkertijd een van de drie vormen kiezen: steen, papier of schaar. De regels zijn eenvoudig:
@@ -26,7 +26,9 @@
         worden gespeeld door mensen van alle leeftijden. Het is een perfect spel voor het testen van je geluk en het
         lezen van je tegenstander. Speel "Steen, Papier, Schaar" en laat het lot beslissen!
     </main>
-
+    <div style="display: flex; justify-content: center;">
+        <img src="./fotos/steenpapierschaar.jpg" alt="steen papier schaar foto" width="600" height="335">
+    </div>
 
     <?php include 'footer.php'; ?>
 

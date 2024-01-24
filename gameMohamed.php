@@ -9,12 +9,9 @@
 
 	<title>steen papier schaar</title>
 </head>
-
+<?php include 'menu.php'; ?>
 <body>
 	<section class="game">
-		<!--Titel -->
-		<div class="title">steen papier schaar</div>
-
 		<!-- laat score zien -->
 		<div class="score">
 			<div class="playerScore">
@@ -49,7 +46,7 @@
 
 	</section>
 	<div class="centered-menu">
-		<?php include 'menu.php'; ?>
+		
 	</div>
 	<script src="gamemohamed.js"></script>
 	<?php include 'footer.php'; ?>

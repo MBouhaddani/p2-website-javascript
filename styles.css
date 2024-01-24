@@ -64,7 +64,7 @@ footer {
 
 /* Titel van het spel */
 .title{
-	position: absolute;
+	position: flex;
 	top: 0;
 	font-size: 4rem;
 	z-index: 2;
